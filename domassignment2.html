@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="learnmore">Learn more</button>
+
+
+    <script>
+        const learnmoreButton = document.getElementById(`learnmore`);
+
+        let learnmore = "Learn more";
+
+        learnmoreButton.addEventListener("dblclick", () => {
+            learnmore = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur expedita, sequi odit suscipit dolorum nisi, ullam totam quibusdam quo rem minus aliquam iusto vel, impedit error ab sunt saepe hic?";
+            learnmoreButton.textContent = learnmore;
+        })
+
+    </script>
+</body>
+</html>

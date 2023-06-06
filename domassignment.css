@@ -1,0 +1,15 @@
+body {
+    width: fit-content;
+    margin-left: 35%;
+    text-align: center;
+    border: 2px solid black;
+}
+span {
+    border: 0.2px solid;
+}
+button {
+    font-size: 16px;
+}
+.counter {
+    font-size: 25px;
+}
